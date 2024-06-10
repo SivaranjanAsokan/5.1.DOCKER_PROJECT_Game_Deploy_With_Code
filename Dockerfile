@@ -3,7 +3,7 @@ FROM ubuntu:22.04
 RUN apt-get update
 RUN apt-get install -y nginx zip unzip  curl
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
-RUN curl -o /var/www/html/master.zip -L https://github.com/gabrielecirulli/2048/archive/refs/heads/master.zip
+RUN curl -o /var/www/html/master.zip -L https://github.com/SivaranjanAsokan/5.1.DOCKER_PROJECT_Game_Deploy_With_Code/2048/archive/refs/heads/master.zip
 # Extract the zip file
 RUN unzip /var/www/html/master.zip -d /var/www/html/
 
