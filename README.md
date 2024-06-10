@@ -34,3 +34,39 @@ You can find the same information in the [contributing guide.](https://github.co
 ## License & Code Credit
 2048 is licensed under the [MIT license.](https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--FROM ubuntu:22.04
+
+RUN apt-get update
+RUN apt-get install -y nginx zip unzip  curl
+RUN echo "daemon off;" >> /etc/nginx/nginx.conf
+RUN curl -o /var/www/html/master.zip -L https://github.com/gabrielecirulli/2048/archive/refs/heads/master.zip
+# Extract the zip file
+RUN unzip /var/www/html/master.zip -d /var/www/html/
+
+# Move the contents to the web root and clean up
+RUN mv /var/www/html/2048-master/* /var/www/html/ && rm -rf /var/www/html/2048-master /var/www/html/master.zip
+
+
+EXPOSE 80
+
+CMD ["/usr/sbin/nginx", "-c", "/etc/nginx/nginx.conf"] -->
