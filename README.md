@@ -1,5 +1,5 @@
 # 2048
-[LinkedIn ](https://www.linkedin.com/posts/sivaranjandevopscloud_docker-gamedevelopment-devops-activity-7206000655151353856-A8xf?utm_source=share&utm_medium=member_desktop
+[LinkedIn-Full-Article ](https://www.linkedin.com/posts/sivaranjandevopscloud_docker-gamedevelopment-devops-activity-7206000655151353856-A8xf?utm_source=share&utm_medium=member_desktop
 )
 
 
