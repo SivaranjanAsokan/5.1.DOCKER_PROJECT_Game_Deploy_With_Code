@@ -126,9 +126,9 @@ The `CMD` instruction in a Dockerfile specifies the command that will be execute
 
 When the container starts, the `CMD` instruction ensures that the following command is executed:
 
-
+```bash
 /usr/sbin/nginx -c /etc/nginx/nginx.conf
-
+```
 
 This command starts the Nginx server using the configuration file located at `/etc/nginx/nginx.conf`. 
 
