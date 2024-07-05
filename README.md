@@ -92,11 +92,11 @@ Here's a detailed explanation of each line in the Dockerfile:
 
 ### Summary
 This Dockerfile creates a Docker image that sets up an Nginx web server on Ubuntu 22.04, downloads a web application from a GitHub repository, and serves it from the container. It ensures that Nginx runs in the foreground, making it compatible with Docker's containerization model.
-Let's break down the `CMD ["/usr/sbin/nginx", "-c", "/etc/nginx/nginx.conf"]` command in detail.
 
 ### Context
 
 The `CMD` instruction in a Dockerfile specifies the command that will be executed when a container starts. It's important to note that there can only be one `CMD` instruction in a Dockerfile. If multiple `CMD` instructions are present, only the last one will take effect.
+
 
 ### Breakdown of the CMD Instruction
 
