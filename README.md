@@ -40,7 +40,7 @@ You can find the same information in the [contributing guide.](https://github.co
 
 
 ## DOCKER-FILE:
-Certainly! Here's a detailed explanation of each line in the Dockerfile:
+Here's a detailed explanation of each line in the Dockerfile:
 
 ### Base Image
 
